@@ -6,3 +6,5 @@ router.get('/', (req, res) => {
     res.send("Hello From main route")
 })
 
+module.exports = router;
+
