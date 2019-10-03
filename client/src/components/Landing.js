@@ -3,17 +3,14 @@ import {Link} from 'react-router-dom';
 
 const Landing = () => {
     return (
-        <section className="landing">
+        <section className="landing bg-dark">
             <div className="bg-dark">
                 <div className="text-center text-white">
-                    <h1 className="x-large">DevOps Engineering</h1>
+                    <h1 className="x-large">The Nice Developer</h1>
                     <p className="lead">
-                    Create a developer profile/portfolio, share posts and get help from
-                    other developers
+                    Simple Daily Coffe made for your enjoyment
                     </p>
-                    <div className="buttons">
-                        <Link to="/login" className="btn btn-light">Login</Link>
-                    </div>
+                    <i className="fas fa-coffee"/>
                 </div>
             </div>
       </section>

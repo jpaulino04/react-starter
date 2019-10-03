@@ -6,7 +6,7 @@ const Navbar = () => {
         <Fragment>
             <nav className="navbar bg-dark">
                 <h1 className="navbar-brand">
-                    <Link to="/"><i className="fas fa-code"></i> DevOps</Link>
+                    <Link to="/"><i className="fas fa-code"></i> TheNiceDeveloper</Link>
                 </h1>
                 <ul>
                     <li className="main-li lead"><Link to="/">Developers</Link></li>
