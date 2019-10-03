@@ -1,3 +1,14 @@
+
+.main-color > #root > div {
+  min-height: 100%;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  height: 100% !important;
+  overflow: hidden;
+}
+.main-color {
+  min-height: 100%;
+}
+
 .App {
   text-align: center;
 }
