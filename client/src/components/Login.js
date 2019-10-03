@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 const Login = () => {
     return (
         <Fragment>
-            <form>
+            <form className="my-5">
                 <div className="form-group" >
                     <label for="exampleInputEmail1">Email address</label>
                     <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
